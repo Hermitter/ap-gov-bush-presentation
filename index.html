@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>	
+<title>George W. Bush</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<script language="javascript" type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<script language="javascript" type="text/javascript" src="green-sock.js"></script>
+<script language="javascript" type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body id="body">
+<!-- HEADER & CURTAIN/TITLE EFFECT -->
+<div id="loading-screen">
+	<img id="load-bush" style="position: relative; top: 12%;" src ="images/loading.gif"><br>
+</div>
+
+<div id="title-wrap">
+	<img id="title" style="position: relative; top: 12%;" src ="images/logo.png">
+</div>
+
+<div id="curtain-frame">
+	<div id="left-curtain"></div>
+	<div id="right-curtain"></div>
+</div>
+<!-- MAIN CONTENT -->
+<div id="content-wrap">
+	<div id="content">
+		<h2 id="bush-title"> </h2>
+			<p id="bush-text" align="left">
+			<img id="bush-image" align="left">
+
+			<div id="preload-images">
+				<img src="images/bio.jpg">
+				<img src="images/state.jpg">
+				<img src="images/executive.jpg">
+				<img src="images/diplomat.jpg">
+				<img src="images/commander.jpg">
+				<img src="images/legislator.jpg">
+				<img src="images/party.jpg">
+				<img src="images/guard.jpg">
+				<img src="images/bestRole.jpg">
+			</div>
+
+				<span id="swap-text" style="text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.43);font-size:20px; font-family:sans-serif; border-radius:5px;"></span>
+			</p>
+	</div>
+</div>
+<!-- DESCRIPTION TILES -->
+<div id="info-wrapper">
+		<div id="left-info-1" class="info-rows left-info">
+			<!--<img src="images/bio.jpg">-->
+			<p class="text-info" onmousedown="setContent('images/bio.jpg', 'Biography:', bio, 850)">Biography:</p>
+		</div>
+		<div id="right-info-1" class="info-rows right-info">
+			<!--<img src="images/state.jpg">-->
+			<p class="text-info" onmousedown="setContent('images/state.jpg', 'Chief of State:', state, 810)">Chief of State:</p>
+		</div>
+
+		<div id="left-info-2" class="info-rows left-info">
+			<!--<img src="images/executive.jpg">-->
+			<p class="text-info" onmousedown="setContent('images/executive.jpg', 'Chief Executive:', executive, 360)">Chief Executive:</p>
+		</div>
+		<div id="right-info-2" class="info-rows right-info">
+			<!--<img src="images/diplomat.jpg">-->
+			<p class="text-info" onmousedown="setContent('images/diplomat.jpg', 'Chief Diplomat:', diplomat, 625)">Chief Diplomat:</p>
+		</div>
+		<div id="left-info-3" class="info-rows left-info">
+			<!--<img src="images/commander.jpg">-->
+			<p class="text-info" onmousedown="setContent('images/commander.jpg', 'Commander-In-Chief:', commander, 360)">Commander-In-Chief:</p>
+		</div>
+		<div id="right-info-3" class="info-rows right-info">
+			<!--<img src="images/legislator.jpg">-->
+			<p class="text-info" onmousedown="setContent('images/legislator.jpg', 'Chief Legislator:', legislator, 760)">Chief Legislator:</p>
+		</div>
+
+		<div id="left-info-4" class="info-rows left-info">
+			<!--<img src="images/party.jpg">-->
+			<p class="text-info" onmousedown="setContent('images/party.jpg', 'Chief of Party:', party, 360)">Chief of Party:</p>
+		</div>
+		<div id="right-info-4" class="info-rows right-info">
+			<!--<img src="images/guard.jpg">-->
+			<p class="text-info" onmousedown="setContent('images/guard.jpg', 'Chief Guardian of the Economy:', guard, 360)">Chief Guardian of the Economy:</p>
+		</div>
+
+		<div id="left-info-5" class="info-rows left-info">
+			<!--<img src="images/bestRole.jpg">-->
+			<p class="text-info" onmousedown="setContent('images/bestRole.jpg', 'Best Role:', bestRole, 647)">Best Role:</p>
+		</div>
+</div>
+	<div style="text-align:center; max-width: 400px; margin:auto; display:block;">
+			<!--<img src="images/guard.jpg">-->
+			<p class="text-info" style="border-color:rgba(255, 255, 255, 0.65); border-width: 20px; border-style: solid;" onmousedown="showCitation()">Works Cited</p>
+			<p id="works-cited" style=" display:none; background-color: rgba(255, 255, 255, 0.65); padding:10px; border-radius:5px;">
+				"Appointments - George W. Bush." AMERICAN FOREIGN SERVICE ASSOCIATION.
+				<br>
+				<br>
+				AMERICAN FOREIGN SERVICE ASSOCIATION, n.d. Web. 3 Apr. 2016.
+				<br>
+				<br>
+				Bio. "George W. Bush." Bio.com. A&E Networks Television, n.d. Web. 03 Apr. 2016.
+				<br>
+				<br>
+				"What Is USA Patriot Act? - Definition from WhatIs.com." SearchDataManagement. Tech Target, n.d. Web. 03 Apr. 2016.
+				<br>
+				<br>
+				"What Were President George W. Bush's Accomplishments?" What Were President George W. Bush's Accomplishments? Inside Gov, n.d. Web. 3 Apr. 2016.
+				<br>
+				<br>
+				Wikipedia. "List of Federal Judges Appointed by George W. Bush." Wikipedia. Wikimedia Foundation, n.d. Web. 03 Apr. 2016.
+				<br>
+				<br>		
+			</p>
+		</div>
+
+<audio controls loop id="rap-song" style="display:none;">
+<source src="rap-song.mp3" type="audio/mp3">
+</body>
+</html>

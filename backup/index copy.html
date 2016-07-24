@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>	
+<title>George W. Bush</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<script language="javascript" type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<script language="javascript" type="text/javascript" src="green-sock.js"></script>
+<script language="javascript" type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body id="body">
+<!-- HEADER & BEGINNING EFFECTS -->
+<div id="loading-screen">
+	<img id="load-bush" style="position: relative; top: 12%;" src ="images/loading.gif"><br>
+</div>
+
+<div id="title-wrap">
+	<img id="title" style="position: relative; top: 12%;" src ="images/logo.png">
+</div>
+
+<div id="curtain-frame">
+	<div id="left-curtain"></div>
+	<div id="right-curtain"></div>
+</div>
+<!-- MAIN CONTENT -->
+<div id="content">
+	<img id="hands" src="images/hands.png">
+	<div id="hand-content-wrap">
+			<p id="hand-content">
+				<img id="hand-content-image">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec ante vitae turpis lobortis congue. Proin feugiat ornare purus, faucibus laoreet tellus egestas eu. In non sem at nisi dictum efficitur in et eros. Donec et felis massa. Integer aliquam, est viverra dictum blandit, leo sem cursus elit, eu semper risus massa quis ipsum. 
+			</p>
+	</div>
+</div>
+
+<div id="info-wrapper">
+		<div id="left-info-1" class="info-rows left-info">
+			<!--<img src="images/bio.jpg">-->
+			<p class="text-info" onmousedown="setContent('images/bio.jpg')">Biography:</p>
+		</div>
+		<div id="right-info-1" class="info-rows right-info" onmousedown="setContent('images/state.jpg')">
+			<!--<img src="images/state.jpg">-->
+			<p class="text-info">Chief of State:</p>
+		</div>
+
+		<div id="left-info-2" class="info-rows left-info">
+			<!--<img src="images/executive.jpg">-->
+			<p class="text-info">Chief Executive:</p>
+		</div>
+		<div id="right-info-2" class="info-rows right-info">
+			<!--<img src="images/diplomat.jpg">-->
+			<p class="text-info">Chief Diplomat:</p>
+		</div>
+		<div id="left-info-3" class="info-rows left-info">
+			<!--<img src="images/commander.jpg">-->
+			<p class="text-info">Commander-In-Chief:</p>
+		</div>
+		<div id="right-info-3" class="info-rows right-info">
+			<!--<img src="images/legislator.jpg">-->
+			<p class="text-info">Chief Legislator:</p>
+		</div>
+
+		<div id="left-info-4" class="info-rows left-info">
+			<!--<img src="images/party.jpg">-->
+			<p class="text-info">Chief of Party:</p>
+		</div>
+		<div id="right-info-4" class="info-rows right-info">
+			<!--<img src="images/guard.jpg">-->
+			<p class="text-info">Chief Guardian of the Economy:</p>
+		</div>
+</div>
+
+<audio controls loop id="rap-song" style="display:none;">
+<source src="rap-song.mp3" type="audio/mp3">
+</body>
+</html>
